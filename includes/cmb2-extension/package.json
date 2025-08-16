@@ -1,0 +1,46 @@
+{
+  "name": "cmb2-extension",
+  "title": "CMB2 Extension",
+  "version": "1.0.0",
+  "description": "CMB2 Extension is to extend cmb2 plugin functionality and organize it's Add-ons at one place.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "grunt": "node ./node_modules/grunt-cli/bin/grunt",
+    "watch": "node ./node_modules/grunt-cli/bin/grunt watch",
+    "phptests": "vendor/bin/phpunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polupraneeth/cmb2-extension"
+  },
+  "author": {
+    "name": "polupraneeth",
+    "email": "contact@polupraneeth.me",
+    "url": "http://polupraneeth.me"
+  },
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/polupraneeth/cmb2-extension/issues"
+  },
+  "homepage": "https://wordpress.org/plugins/cmb2-extension/",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-asciify": "~0.2.2",
+    "grunt-banner": "^0.6.0",
+    "grunt-checktextdomain": "^1.0.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^0.4.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-cssjanus": "^0.2.2",
+    "grunt-exec": "^0.4.6",
+    "grunt-newer": "^1.1.0",
+    "grunt-phpunit": "~0.3.6",
+    "grunt-potomo": "^3.1.1",
+    "grunt-update-submodules": "~0.4.1",
+    "grunt-wp-i18n": "^1.0.3",
+    "load-grunt-tasks": "^5.1.0"
+  },
+  "dependencies": {}
+}

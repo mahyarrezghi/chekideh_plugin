@@ -1,0 +1,6 @@
+{
+    "require": {
+        "orhanerday/open-ai": "^5.2",
+        "woocommerce/action-scheduler": "^3.9"
+    }
+}
