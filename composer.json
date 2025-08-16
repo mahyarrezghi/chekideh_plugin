@@ -1,6 +1,7 @@
 {
     "require": {
         "orhanerday/open-ai": "^5.2",
-        "woocommerce/action-scheduler": "^3.9"
+        "woocommerce/action-scheduler": "^3.9",
+        "yahnis-elsts/plugin-update-checker": "^5.6"
     }
 }
