@@ -3,7 +3,7 @@
  * Plugin Name:       Chekideh
  * Description:       Generates a summary of comments for Posts and WooCommerce products using AI.
  * Plugin URI:        https://cache.cool/chekideh
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Mahyar Rezghi
@@ -38,7 +38,7 @@ if ( file_exists( dirname( __FILE__ ) . '/includes/cmb2-field-post-search-ajax/c
 // Setup plugin update checker
 add_action('init', function() {
     $myUpdateChecker = PucFactory::buildUpdateChecker(
-        'https://static.cache.cool/wp_plugins/chekideh/plugin.json', // Metadata file URL
+        'https://static.cache.cool/wp-plugins/chekideh/plugin.json', // Metadata file URL
         __FILE__,                                                // Main plugin file
         'chekideh'                                                // Plugin slug
     );
